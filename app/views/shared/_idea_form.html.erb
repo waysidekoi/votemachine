@@ -1,0 +1,15 @@
+<div class="idea-box">
+  <%= form_for Idea.new do |f| %>
+  <div class="presenter">
+    <%= f.label :presenter %><br>
+    <%= f.text_field :presenter %>
+  </div>
+  <div class="project_name">
+    <%= f.label :description %><br>
+    <%= f.text_area :description, rows:"5", cols:"60" %>
+  </div>
+  
+  <br>
+  <%= f.submit %>
+  <% end %>
+</div>

@@ -1,0 +1,60 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.admin-container {
+  width: 65%;
+  border: 1px dotted;
+  margin-left: 50px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.admin-container h1 {
+  margin-left: 10px;
+}
+
+.ideas-list {
+  float: right;
+  border: 1px solid;
+  width: 25%;
+}
+.container h3 {
+  margin-top: 5px;
+}
+.idea-box {
+  margin-left: 10px;
+  position: relative;
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+#idea_description {
+  position:relative;
+  width: 90%;
+}
+
+/* this appears to make the ideas-list box disappear */
+.wrapper {  
+  min-width: 800px;
+}
+
+.idea {
+  margin-bottom: 0;
+}
+
+.idea li.user {
+  list-style-type: none;
+  margin: 5px;
+  font-style: bold;
+  font-family: Garamond;
+  font-size: 1.5em;
+}
+
+.idea li.description {
+  list-style-type: none;
+  margin: 5px 5px 0 5px;
+  font-family: Garamond;
+  font-size: 1.1em;
+  border-bottom: 1px dotted gray;
+}

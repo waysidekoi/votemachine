@@ -1,0 +1,83 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+
+  width: 450px;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  border:3px solid #829194;
+  padding:1em;
+}
+.title h3{
+  padding-top: 20px;
+}
+.notice {
+
+  width: 300px;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  color: 00b1dd;
+  top: 120px;
+  margin-left: 33%;
+  text-align: center;
+}
+
+.notice h3 {
+  color: red;
+  font-family: "Constantia";
+}
+.container h3 {
+  color: #696C6E;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.login {
+  color: #696C6E;
+  font-family: Georgia;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.signin {
+    text-shadow: 1px 1px 0px #00b1dd;
+    color: #fff;
+    font-family: DejaVu Serif;
+    border: 1px solid #00b1dd; 
+    width: 120px;
+    height: 50px;
+    font-size: 1.5em;
+    background: #00b1dd; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#0dc4f2) to(#00b1dd)); /*old webkit*/
+    background: -webkit-linear-gradient(#0dc4f2, #00b1dd); /*new webkit*/
+    background: -moz-linear-gradient(#0dc4f2, #00b1dd); /*gecko*/
+    background: -ms-linear-gradient(#0dc4f2, #00b1dd); /*IE10*/
+    background: -o-linear-gradient(#0dc4f2, #00b1dd); /*opera 11.10+*/
+    background: linear-gradient(#0dc4f2, #00b1dd); /*future CSS3 browsers*/
+    -pie-background: linear-gradient(#0dc4f2, #00b1dd); /*PIE*/
+      
+}
+ 
+.signin:hover {
+    background: #0dc4f2; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00b1dd) to(#0dc4f2)); /*old webkit*/
+    background: -webkit-linear-gradient(#00b1dd, #0dc4f2); /*new webkit*/
+    background: -moz-linear-gradient(#00b1dd, #0dc4f2); /*gecko*/
+    background: -ms-linear-gradient(#00b1dd, #0dc4f2); /*IE10*/
+    background: -o-linear-gradient(#00b1dd, #0dc4f2); /*opera 11.10+*/
+    background: linear-gradient(#00b1dd, #0dc4f2); /*future CSS3 browsers*/
+    -pie-background: linear-gradient(#00b1dd, #0dc4f2); /*PIE*/
+}

@@ -1,0 +1,28 @@
+<div class="notice">
+  <% if flash[:notice] %>
+  <h3><%= flash[:notice] %></h3>
+  <% end %>
+</div>
+<div class="container">
+  <div class="title">
+    <h3>Vote Machine</h3>
+  </div>
+  <div class="login">
+
+    <%= form_for @user do |f| %>
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %><br><br>
+
+    <%= f.submit value="Sign in", class:"signin" %>
+
+    <% end %>
+  </div>
+
+
+
+
+
+
+
+
+</div>

@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <div class="admin-container">
+    <h1>You're an admin.. i hope</h1>
+    <%= render "shared/idea_form" %>
+  </div>
+  <div class="ideas-list">
+    <%= render partial: "shared/list_ideas", :locals => { :ideas => @ideas } %>
+  </div>
+</div>

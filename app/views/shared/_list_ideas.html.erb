@@ -1,0 +1,9 @@
+<% if ideas %>
+<% ideas.each do |idea| %>
+<div class="idea">
+  <li class="user"><%= idea.user.first_name %></li>
+  <li class="description"><%= idea.description %></li>
+
+  <% end %>
+</div>
+<% end %>
